@@ -12,7 +12,7 @@ spec:
   timeout: 5m
   sourceRef:
     kind: ExternalArtifact
-    name: flux-system
+    name: apps
   path: ./staging
   prune: true
   wait: true
